@@ -108,7 +108,7 @@ Only non-empty records are stored, which is more memory-efficient.
 
 **📂Project Structure**
 
-|── SAMPLE_OUTPUT.md     # Example Program Output
+│── SAMPLE_OUTPUT.md     # Example Program Output
 
 │── Weather_Storage.py   # Main program file
 
