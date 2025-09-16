@@ -108,11 +108,11 @@ Only non-empty records are stored, which is more memory-efficient.
 
 **📂Project Structure**
 
+│── README.md            # Documentation
+
 │── SAMPLE_OUTPUT.md     # Example Program Output
 
 │── Weather_Storage.py   # Main program file
-
-│── README.md            # Documentation
 
 **📊 Sample Menu (on running the program)**
 
