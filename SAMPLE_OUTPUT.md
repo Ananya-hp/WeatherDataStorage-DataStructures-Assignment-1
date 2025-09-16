@@ -4,15 +4,15 @@
 
 📅 Enter years:
 
-Year 1: 2022
+Year 1: 2021
 
-Year 2: 2023
+Year 2: 2022
 
-🏙️ Enter number of cities:
+🏙 Enter number of cities:
 
 2
 
-🏙️ Enter cities:
+🏙 Enter cities:
 
 City 1: Delhi
 
@@ -27,9 +27,10 @@ City 2: Mumbai
 6. Sparse Representation
 7. Complexity Analysis
 0. Exit
+ 
 Enter choice: 1
 
-Year: 2022
+Date (DD/MM/YYYY): 10/9/2021
 
 City: Delhi
 
@@ -46,13 +47,14 @@ Temperature: 39.5
 6. Sparse Representation
 7. Complexity Analysis
 0. Exit
+   
 Enter choice: 1
 
-Year: 2023
+Date (DD/MM/YYYY): 10/12/2022
 
 City: Mumbai
 
-Temperature: 36.5
+Temperature: 35.5
 
 ✅ Record inserted.
 
@@ -65,13 +67,14 @@ Temperature: 36.5
 6. Sparse Representation
 7. Complexity Analysis
 0. Exit
+ 
 Enter choice: 3
 
-Year: 2023
+Year: 2021
 
-City: Mumbai
+City: Delhi
 
-🌡️ Temperature in Mumbai (2023) = 36.5°C
+🌡 [10/9/2021] Delhi: 39.5°C
 
 📋 --- Weather Data Menu ---
 1. Insert Record
@@ -82,18 +85,18 @@ City: Mumbai
 6. Sparse Representation
 7. Complexity Analysis
 0. Exit
+ 
 Enter choice: 4
-
 
 🔍 Row-Major Traversal:
 
-(2022, Delhi) = 39.5
+(2021, Delhi) = [10/9/2021] Delhi: 39.5°C
 
-(2022, Mumbai) = None
+(2021, Mumbai) = None
 
-(2023, Delhi) = None
+(2022, Delhi) = None
 
-(2023, Mumbai) = 36.5
+(2022, Mumbai) = [10/12/2022] Mumbai: 35.5°C
 
 ✅ Row-major traversal complete.
 
@@ -106,17 +109,18 @@ Enter choice: 4
 6. Sparse Representation
 7. Complexity Analysis
 0. Exit
+
 Enter choice: 5
 
 🔍 Column-Major Traversal:
 
-(2022, Delhi) = 39.5
+(2021, Delhi) = [10/9/2021] Delhi: 39.5°C
 
-(2023, Delhi) = None
+(2022, Delhi) = None
 
-(2022, Mumbai) = None
+(2021, Mumbai) = None
 
-(2023, Mumbai) = 36.5
+(2022, Mumbai) = [10/12/2022] Mumbai: 35.5°C
 
 ✅ Column-major traversal complete.
 
@@ -129,12 +133,14 @@ Enter choice: 5
 6. Sparse Representation
 7. Complexity Analysis
 0. Exit
+ 
 Enter choice: 6
 
 📦 Sparse Representation:
-(2022, 'Delhi'): 39.5
 
-(2023, 'Mumbai'): 36.5
+(2021, 'Delhi'): 39.5°C
+
+(2022, 'Mumbai'): 35.5°C
 
 📋 --- Weather Data Menu ---
 1. Insert Record
@@ -145,6 +151,7 @@ Enter choice: 6
 6. Sparse Representation
 7. Complexity Analysis
 0. Exit
+   
 Enter choice: 7
 
 📊 Time & Space Complexity:
@@ -164,10 +171,12 @@ Sparse Representation: O(N) space, where N = number of non-missing records
 6. Sparse Representation
 7. Complexity Analysis
 0. Exit
+   
 Enter choice: 2
 
-Date (DD/MM/YYYY): 10/09/2022
+Date (DD/MM/YYYY): 10/9/2021
 
 City: Delhi
 
-🗑️ Record deleted.
+🗑 Record deleted.
+
